@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainBody">
+        <div id="backgroundDisplay">
+            <img src="BELIVER.jpg" alt="NF" id="backgroundImg">
+        </div>
+        <div class="upperBody">
+            <input type="text" id="search" value="Search">
+        </div>
+        <div class="middleBody">
+            <div id="display">
+                <img src="BELIVER.jpg" alt="NF" id="displayImg">
+            </div>
+            <div class="buttons">
+                <button id="preBtn" onclick="functionPre()"><img src="Pre.png" alt="NF" id="preImg"></button>
+                <button id="playBtn" onclick="functionPlay()"><img src="Play.png" alt="NF" id="playImg"></button>
+                <button id="nextBtn" onclick="functionNext()"><img src="Next.png" alt="NF" id="nextImg"></button>
+                <button id="muteBtn" onclick="functionMute()">MUTE</button>
+                <input type="range" id="volumeBtn" min="0" max="1" step="0.01" value="1">
+            </div>
+            <div class="seekBar">
+                <div id="fill"></div>
+                <div id="handler"></div>
+            </div>
+        </div>
+        <div class="lowerBody">
+            <h3>AVAILABLE SONGS ARE:</h3>
+            <div id="availSongs"></div>
+        </div>
+    </div>
+</body>
+<script src="js.js"></script>
+
+</html>

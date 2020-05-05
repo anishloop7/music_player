@@ -1,0 +1,107 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainBody{
+    height: 100%;
+    width: 100%;
+    background-color: teal;
+}
+.middleBody{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.buttons{
+    position: absolute;
+    left: 18%;
+    top: 120%;
+}
+#preBtn, #playBtn, #nextBtn , #muteBtn{
+    background-color: tomato;
+}
+#muteBtn{
+    height: 54px;
+    position: absolute;
+    top: 0px;
+    left: 192px;
+}
+.seekBar{
+    position: absolute;
+    height: 5px;
+    top: 110%;
+    width: 360px;
+    background-color: white;
+}
+#handler{
+    position: absolute;
+    height: 15px;
+    top: -100%;
+    border-radius: 50%;
+    width: 15px;
+    background-color: white;
+}
+#fill{
+    position: absolute;
+    height: 5px;
+    top: 0%;
+    width: 5px;
+    background-color: purple;
+}
+#music{
+    position: absolute;
+    top: -20%;
+    display: none;
+}
+#displayImg{
+    height: 350px;
+    width: 370px;
+}
+#backgroundImg{
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: 999;
+}
+#volumeBtn{
+    position: absolute;
+    transform: rotateZ(270deg);
+    top: -105px;
+    left: 260px;
+}
+#search{
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+#availSongs{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 13%;
+    left: 70%;
+    background-color: seashell;
+    overflow: auto;
+}
+h3{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    color: black;
+    font-size: 25px;
+}
+/*.availSongsBtn:hover{
+    background-color: purple;
+    color: white;
+    transition: .5s;
+}*/
